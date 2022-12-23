@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link href="styles/contact-form.css" rel="stylesheet">
+</head>
+<body>
+<h1> Contact </h1>
+<address>
+    Phone: <a href="tel:123123123">123123123</a> <br>
+    Address: Nackademinvägen 5 (Stockholm) <br>
+</address>
+
+<div class="cf-body">
+    <div id="cf-form">
+        <h3 class="cf-h3">Contact us</h3>
+        <form id="cf-form-id" class="cf-form-class" method="post" action="">
+            <div class="cf-form-group">
+                <label for="Name" class="cf-label">Name:</label>
+                <div class="cf-input-group">
+                    <input type="text" id="Name" name="Name" class="cf-form-control" required>
+                </div>
+            </div>
+
+            <div class="cf-form-group">
+                <label for="Email" class="cf-label">Email address:</label>
+                <div class="cf-input-group">
+                    <input type="email" id="Email" name="Email" class="cf-form-control" required>
+                </div>
+            </div>
+
+            <div class="cf-form-group">
+                <label for="Message" class="cf-label">Message:</label>
+                <div class="cf-input-group">
+                    <textarea id="Message" name="Message" class="cf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+
+            <div class="cf-form-group">
+                <button type="submit" id="cf-button" class="cf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send
+                    Message
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+<img src="images/office.webp" alt="Image of our amazing office."/>
+</body>
+</html>
