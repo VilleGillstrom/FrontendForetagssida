@@ -88,7 +88,9 @@ body {
     line-height: 1.5;
 }
 
-.field {
 
+#top-wide-img {
+    object-fit: cover;
+    width: auto;
+    height: 400px;
 }
-
