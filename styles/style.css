@@ -1,3 +1,64 @@
 img.top-img {
     max-height: 50px;
 }
+
+
+/* Add a black background color to the top navigation */
+.nav-div {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav-div a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-div a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.wideImg-div {
+    background-color: #333333;
+    display: flex;
+}
+
+.wideImg {
+    max-height: 500px;
+
+}
+
+.flx-div {
+    display: flex;
+    height: 400px;
+    background-color: #333333;
+    
+}
+
+
+
+.flx-div.item.img {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
