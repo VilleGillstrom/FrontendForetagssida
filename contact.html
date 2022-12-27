@@ -10,10 +10,11 @@
     <link href="styles/contact-form.css" rel="stylesheet">
 </head>
 <body>
+<header>
 <script id="replace_with_navbar" src="scripts/nav.js"></script>
-
+</header>
+<div class="main-content">
 <h2> Contact </h2>
-
 <address>
     Phone: <a href="tel:123123123">123123123</a> <br>
     Address: Nackademinvägen 5 (Stockholm) <br>
@@ -21,27 +22,26 @@
 
 <div class="cf-body">
     <div id="cf-form">
-
         <h3 class="cf-h3">Contact us</h3>
-        <form id="cf-form-id" class="cf-form-class" method="post" action="">
+        <form id="cf-form-id" class="cf-form-class" method="post" action="post-contact.html">
             <div class="cf-form-group">
                 <label for="Name" class="cf-label">Name:</label>
                 <div class="cf-input-group">
-                    <input type="text" id="Name" name="Name" class="cf-form-control" required>
+                    <input type="text" id="Name" name="Name" class="field" required>
                 </div>
             </div>
 
             <div class="cf-form-group">
                 <label for="Email" class="cf-label">Email address:</label>
                 <div class="cf-input-group">
-                    <input type="email" id="Email" name="Email" class="cf-form-control" required>
+                    <input type="email" id="Email" name="Email" class="field" required>
                 </div>
             </div>
 
             <div class="cf-form-group">
                 <label for="Message" class="cf-label">Message:</label>
                 <div class="cf-input-group">
-                    <textarea id="Message" name="Message" class="cf-form-control" rows="6" maxlength="3000" required></textarea>
+                    <textarea id="Message" name="Message" class="field" rows="6" maxlength="3000" required></textarea>
                 </div>
             </div>
 
@@ -51,11 +51,10 @@
 
         </form>
         <script  type="text/javascript" src="scripts/contactForm.js"></script>
-
     </div>
 
 </div>
-
+</div>
 <img src="images/office.webp" alt="Image of our amazing office."/>
 </body>
 </html>
