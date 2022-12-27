@@ -38,7 +38,6 @@ img.top-img {
     display: flex;
     height: 400px;
     background-color: #333333;
-    
 }
 
 
@@ -46,10 +45,24 @@ img.top-img {
 .flx-div.item.img {
 }
 
-.main-content {
-    child-align: middle ;
-    text-align: center;
+.full-container{
+    padding: 50px;
+    background-color: #6D8B74;
 }
+
+.colored-container {
+    background-color: #6D8B74;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.grid-entry {
+    background-color: #5F7161;
+}
+
 .cf-body {
 
 }
