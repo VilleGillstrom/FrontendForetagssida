@@ -1,7 +1,10 @@
 img.top-img {
     max-height: 50px;
 }
-
+body {
+    font-family: "Segoe UI","Frutiger", "serif";
+    font-weight: 300;
+}
 
 /* Add a black background color to the top navigation */
 .nav-div {
@@ -24,16 +27,6 @@ img.top-img {
     color: black;
 }
 
-.wideImg-div {
-    background-color: #333333;
-    display: flex;
-}
-
-.wideImg {
-    max-height: 500px;
-
-}
-
 .flx-div {
     display: flex;
     height: 400px;
@@ -47,7 +40,8 @@ img.top-img {
 
 .full-container{
     padding: 50px;
-    background-color: #6D8B74;
+    background-color: #E3FDFD;
+    position:relative;
 }
 
 .colored-container {
@@ -56,17 +50,45 @@ img.top-img {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    align-content: center;
+    padding: 10px 2rem;
+}
+.grid-horizontal {
+    grid-auto-flow: column;
+}
+.grid-vertical {
+    grid-auto-flow: row;
 }
 
-.grid-entry {
-    background-color: #5F7161;
+.grid-entry-box {
+    background-color: #CBF1F5;
+    height: 250px;
+    min-width: 400px;
+    max-width: 600px;
+    margin: 5px 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.grid-entry-default{
+    margin: 5px 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+
+.grid-entry-box p{
+    min-height: 120px;
 }
 
 .cf-body {
-
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 .field {
 
 }
+

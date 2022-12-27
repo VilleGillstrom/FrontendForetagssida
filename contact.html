@@ -12,49 +12,52 @@
 <div id="nav"></div>
 
 <div id="main-content">
-<h2> Contact </h2>
-<address>
-    Phone: <a href="tel:123123123">123123123</a> <br>
-    Address: Nackademinvägen 5 (Stockholm) <br>
-</address>
+    <h2> Contact </h2>
+    <address>
+        Phone: <a href="tel:123123123">123123123</a> <br>
+        Address: Nackademinvägen 5 (Stockholm) <br>
+    </address>
 
-<div class="cf-body">
-    <div id="cf-form">
-        <h3 class="cf-h3">Contact us</h3>
-        <form id="cf-form-id" class="cf-form-class" method="post" action="post-contact.html">
-            <div class="cf-form-group">
-                <label for="Name" class="cf-label">Name:</label>
-                <div class="cf-input-group">
-                    <input type="text" id="Name" name="Name" class="field" required>
+    <div>
+        <div id="cf-form">
+            <h3 class="cf-h3">Contact us</h3>
+            <form id="cf-form-id" method="post" action="post-contact.html">
+                <div>
+                    <label for="Name" class="cf-label">Name:</label>
+                    <div class="cf-input-group">
+                        <input type="text" id="Name" name="Name" class="field" required>
+                    </div>
                 </div>
-            </div>
 
-            <div class="cf-form-group">
-                <label for="Email" class="cf-label">Email address:</label>
-                <div class="cf-input-group">
-                    <input type="email" id="Email" name="Email" class="field" required>
+                <div>
+                    <label for="Email" class="cf-label">Email address:</label>
+                    <div class="cf-input-group">
+                        <input type="email" id="Email" name="Email" class="field" required>
+                    </div>
                 </div>
-            </div>
 
-            <div class="cf-form-group">
-                <label for="Message" class="cf-label">Message:</label>
-                <div class="cf-input-group">
-                    <textarea id="Message" name="Message" class="field" rows="6" maxlength="3000" required></textarea>
+                <div>
+                    <label for="Message" class="cf-label">Message:</label>
+                    <div class="cf-input-group">
+                        <textarea id="Message" name="Message" class="field" rows="6" maxlength="3000"
+                                  required></textarea>
+                    </div>
                 </div>
-            </div>
 
-            <div class="cf-form-group">
-                <button form="cf-form-id" type="submit" id="cf-button" class="cf-btn cf-btn-primary cf-btn-lg cf-btn-block">Send Message </button>
-            </div>
+                <div>
+                    <button form="cf-form-id" type="submit" id="cf-button" class="cf-btn">Send Message</button>
+                </div>
 
-        </form>
-        <script  type="text/javascript" src="scripts/contactForm.js"></script>
+            </form>
+
+            <script type="text/javascript" src="scripts/contactForm.js"></script>
+        </div>
+
     </div>
-
 </div>
+<div style="margin-top: 20px">
+    <img src="images/office.webp" style="height:200px" alt="Image of our amazing office."/>
 </div>
-<img src="images/office.webp" alt="Image of our amazing office."/>
-
 <div id="footer"></div>
 </body>
 </html>
