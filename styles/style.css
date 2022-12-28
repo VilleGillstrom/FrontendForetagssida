@@ -51,13 +51,14 @@ body {
     grid-gap: 1em;
     align-content: center;
     padding: 10px 2rem;
+
 }
 .grid-horizontal {
     grid-auto-flow: column;
-
 }
 .grid-vertical {
     grid-auto-flow: row;
+
 }
 
 .grid-entry-box {
@@ -94,6 +95,6 @@ body {
     height: 400px;
 }
 
-.wrap-box {
-    ;
+.cf-input-group {
+    width: 500px;
 }

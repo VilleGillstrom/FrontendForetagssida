@@ -11,16 +11,16 @@
 <div id="header"></div>
 <div id="nav"></div>
 
-<div id="main-content">
+<div id="main-content" style="margin: 40px;">
     <h2> Contact </h2>
     <address>
         Phone: <a href="tel:123123123">123123123</a> <br>
         Address: Nackademinvägen 5 (Stockholm) <br>
     </address>
 
-    <div>
-        <div id="cf-form">
-            <h3 class="cf-h3">Contact us</h3>
+    <div class="colored-container-light" >
+        <div id="cf-form" style="padding: 20px 20px">
+            <h3 >Contact us</h3>
             <form id="cf-form-id" method="post" action="post-contact.html">
                 <div>
                     <label for="Name" class="cf-label">Name:</label>
@@ -35,13 +35,15 @@
                         <input type="email" id="Email" name="Email" class="field" required>
                     </div>
                 </div>
-                <label for="category" class="cf-label">Reason:</label><br>
-                <select id="category" name="category">
-                    <option value="Buying">Buying</option>
-                    <option value="Renting">Renting</option>
-                    <option value="IssuesInstalled">Issues with installed solar cells</option>
-                    <option value="Other">Other</option>
-                </select>
+                <div>
+                    <label for="category" class="cf-label">Reason:</label><br>
+                    <select id="category" name="category">
+                        <option value="Buying">Buying</option>
+                        <option value="Renting">Renting</option>
+                        <option value="IssuesInstalled">Issues with installed solar cells</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
                 <div>
                     <label for="Message" class="cf-label">Message:</label>
                     <div class="cf-input-group">
@@ -60,10 +62,11 @@
         </div>
 
     </div>
+    <div style="margin-top: 20px">
+        <img src="images/office.webp" style="height:200px" alt="Image of our amazing office."/>
+    </div>
 </div>
-<div style="margin-top: 20px">
-    <img src="images/office.webp" style="height:200px" alt="Image of our amazing office."/>
-</div>
+
 <div id="footer"></div>
 </body>
 </html>
