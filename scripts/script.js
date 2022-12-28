@@ -1,4 +1,5 @@
 
+/*Taken from stackoverflow*/
 function load_and_add(html_file, id_name) {
   fetch(html_file)
       .then(res => res.text())
